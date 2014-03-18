@@ -3,605 +3,610 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version:  Cake-Resque\n"
+"Project-Id-Version: Cake-Resque\n"
 "POT-Creation-Date: 2014-03-18 22:15+0100\n"
-"PO-Revision-Date: 2014-03-18 22:21+0100\n"
+"PO-Revision-Date: 2014-03-18 22:26+0100\n"
 "Last-Translator: Mischa ter Smitten <mischa.ter.smitten@gmail.com>\n"
 "Language-Team:  <kami@kamisama.me>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
 
 #: Console/Command/CakeResqueShell.php:101;142
 msgid "User running the workers"
-msgstr ""
+msgstr "User running the workers"
 
 #: Console/Command/CakeResqueShell.php:105
 msgid "Name of the queue. If multiple queues, separe with comma."
-msgstr ""
+msgstr "Name of the queue. If multiple queues, separe with comma."
 
 #: Console/Command/CakeResqueShell.php:109;146
 msgid "Pause time in seconds between each works"
-msgstr ""
+msgstr "Pause time in seconds between each works"
 
 #: Console/Command/CakeResqueShell.php:113
 msgid "Number of workers to fork"
-msgstr ""
+msgstr "Number of workers to fork"
 
 #: Console/Command/CakeResqueShell.php:117;150
 msgid "Log path"
-msgstr ""
+msgstr "Log path"
 
 #: Console/Command/CakeResqueShell.php:120;153
 msgid "Log Handler to use for logging."
-msgstr ""
+msgstr "Log Handler to use for logging."
 
 #: Console/Command/CakeResqueShell.php:123;156
 msgid "Log Handler arguments"
-msgstr ""
+msgstr "Log Handler arguments"
 
 #: Console/Command/CakeResqueShell.php:127;160
 msgid "Log more verbose informations"
-msgstr ""
+msgstr "Log more verbose informations"
 
 #: Console/Command/CakeResqueShell.php:132;196;216;236;258
 msgid "Print debug informations"
-msgstr ""
+msgstr "Print debug informations"
 
 #: Console/Command/CakeResqueShell.php:170
 msgid "Force workers shutdown, forcing all the current jobs to finish (and fail)"
-msgstr ""
+msgstr "Force workers shutdown, forcing all the current jobs to finish (and fail)"
 
 #: Console/Command/CakeResqueShell.php:175
 msgid "Shutdown all workers"
-msgstr ""
+msgstr "Shutdown all workers"
 
 #: Console/Command/CakeResqueShell.php:180
 msgid "Stop one or all workers"
-msgstr ""
+msgstr "Stop one or all workers"
 
 #: Console/Command/CakeResqueShell.php:181
 msgid "Unless you force the stop with the --force option,"
-msgstr ""
+msgstr "Unless you force the stop with the --force option,"
 
 #: Console/Command/CakeResqueShell.php:182
 msgid "the worker will wait for all jobs to complete"
-msgstr ""
+msgstr "the worker will wait for all jobs to complete"
 
 #: Console/Command/CakeResqueShell.php:183
 msgid "before shutting down"
-msgstr ""
+msgstr "before shutting down"
 
 #: Console/Command/CakeResqueShell.php:191;732
 msgid "Pause all workers"
-msgstr ""
+msgstr "Pause all workers"
 
 #: Console/Command/CakeResqueShell.php:201
 msgid "Pause one or all workers"
-msgstr ""
+msgstr "Pause one or all workers"
 
 #: Console/Command/CakeResqueShell.php:202
 msgid "Pausing is only supported on Unix system,"
-msgstr ""
+msgstr "Pausing is only supported on Unix system,"
 
 #: Console/Command/CakeResqueShell.php:203;223;245
 msgid "with PHP pcntl extension installed"
-msgstr ""
+msgstr "with PHP pcntl extension installed"
 
 #: Console/Command/CakeResqueShell.php:211
 msgid "Resume all paused workers"
-msgstr ""
+msgstr "Resume all paused workers"
 
 #: Console/Command/CakeResqueShell.php:221
 msgid "Resume one or all paused workers"
-msgstr ""
+msgstr "Resume one or all paused workers"
 
 #: Console/Command/CakeResqueShell.php:222;244
 msgid "Resuming is only supported on Unix system,"
-msgstr ""
+msgstr "Resuming is only supported on Unix system,"
 
 #: Console/Command/CakeResqueShell.php:231;682
 msgid "Clean up all workers"
-msgstr ""
+msgstr "Clean up all workers"
 
 #: Console/Command/CakeResqueShell.php:241
 msgid "Cleaning Up one or all paused workers"
-msgstr ""
+msgstr "Cleaning Up one or all paused workers"
 
 #: Console/Command/CakeResqueShell.php:242
 msgid "Cleaning Up will immedately terminate the job"
-msgstr ""
+msgstr "Cleaning Up will immedately terminate the job"
 
 #: Console/Command/CakeResqueShell.php:243
 msgid "the worker is currently working on."
-msgstr ""
+msgstr "the worker is currently working on."
 
 #: Console/Command/CakeResqueShell.php:253;1149
 msgid "Clear all queues"
-msgstr ""
+msgstr "Clear all queues"
 
 #: Console/Command/CakeResqueShell.php:263
 msgid "Clear one or all queues"
-msgstr ""
+msgstr "Clear one or all queues"
 
 #: Console/Command/CakeResqueShell.php:264
 msgid "Clearing a queue will remove all its jobs"
-msgstr ""
+msgstr "Clearing a queue will remove all its jobs"
 
 #: Console/Command/CakeResqueShell.php:270
 msgid "A Shell to manage PHP Resque"
-msgstr ""
+msgstr "A Shell to manage PHP Resque"
 
 #: Console/Command/CakeResqueShell.php:271
 msgid "Version "
-msgstr ""
+msgstr "Version "
 
 #: Console/Command/CakeResqueShell.php:272
 msgid "Wan Chen (2013)"
-msgstr ""
+msgstr "Wan Chen (2013)"
 
 #: Console/Command/CakeResqueShell.php:275
 msgid "Start a new worker."
-msgstr ""
+msgstr "Start a new worker."
 
 #: Console/Command/CakeResqueShell.php:279
 msgid "Start a new scheduler worker."
-msgstr ""
+msgstr "Start a new scheduler worker."
 
 #: Console/Command/CakeResqueShell.php:283
 msgid "Stop a worker."
-msgstr ""
+msgstr "Stop a worker."
 
 #: Console/Command/CakeResqueShell.php:287
 msgid "Pause a worker."
-msgstr ""
+msgstr "Pause a worker."
 
 #: Console/Command/CakeResqueShell.php:291
 msgid "Resume a paused worker."
-msgstr ""
+msgstr "Resume a paused worker."
 
 #: Console/Command/CakeResqueShell.php:295
 msgid "Immediately terminate a worker job execution."
-msgstr ""
+msgstr "Immediately terminate a worker job execution."
 
 #: Console/Command/CakeResqueShell.php:299
 msgid "Stop all Resque workers, and start a new one."
-msgstr ""
+msgstr "Stop all Resque workers, and start a new one."
 
 #: Console/Command/CakeResqueShell.php:303
 msgid "Clear all jobs inside a queue"
-msgstr ""
+msgstr "Clear all jobs inside a queue"
 
 #: Console/Command/CakeResqueShell.php:307
 msgid "Reset CakeResque internal worker's saved status"
-msgstr ""
+msgstr "Reset CakeResque internal worker's saved status"
 
 #: Console/Command/CakeResqueShell.php:311
 msgid "View stats about processed/failed jobs."
-msgstr ""
+msgstr "View stats about processed/failed jobs."
 
 #: Console/Command/CakeResqueShell.php:314
 msgid "Tail the workers logs."
-msgstr ""
+msgstr "Tail the workers logs."
 
 #: Console/Command/CakeResqueShell.php:317
 msgid "Track a job status."
-msgstr ""
+msgstr "Track a job status."
 
 #: Console/Command/CakeResqueShell.php:320
 msgid "Load a set of predefined workers."
-msgstr ""
+msgstr "Load a set of predefined workers."
 
 #: Console/Command/CakeResqueShell.php:330
 msgid "Adding a job to worker"
-msgstr ""
+msgstr "Adding a job to worker"
 
 #: Console/Command/CakeResqueShell.php:332;355;379
 msgid "Wrong number of arguments"
-msgstr ""
+msgstr "Wrong number of arguments"
 
 #: Console/Command/CakeResqueShell.php:333
 msgid "Usage : enqueue <queue> <jobclass> <comma-separated-args>"
-msgstr ""
+msgstr "Usage : enqueue <queue> <jobclass> <comma-separated-args>"
 
 #: Console/Command/CakeResqueShell.php:341
 msgid "Succesfully enqueued Job #%s"
-msgstr ""
+msgstr "Succesfully enqueued Job #%s"
 
 #: Console/Command/CakeResqueShell.php:353;377
 msgid "Scheduling a job"
-msgstr ""
+msgstr "Scheduling a job"
 
 #: Console/Command/CakeResqueShell.php:356
 msgid "Usage : enqueueIn <seconds> <queue> <jobclass> <comma-separated-args>"
-msgstr ""
+msgstr "Usage : enqueueIn <seconds> <queue> <jobclass> <comma-separated-args>"
 
 #: Console/Command/CakeResqueShell.php:365;388
 msgid "Succesfully scheduled Job #%s"
-msgstr ""
+msgstr "Succesfully scheduled Job #%s"
 
 #: Console/Command/CakeResqueShell.php:380
 msgid "Usage : enqueue <timestamp> <queue> <jobclass> <comma-separated-args>"
-msgstr ""
+msgstr "Usage : enqueue <timestamp> <queue> <jobclass> <comma-separated-args>"
 
 #: Console/Command/CakeResqueShell.php:424
 msgid "Tailing log file"
-msgstr ""
+msgstr "Tailing log file"
 
 #: Console/Command/CakeResqueShell.php:426
 msgid "No log file to tail"
-msgstr ""
+msgstr "No log file to tail"
 
 #: Console/Command/CakeResqueShell.php:435
 msgid "Choose a log file to tail"
-msgstr ""
+msgstr "Choose a log file to tail"
 
 #: Console/Command/CakeResqueShell.php:438
 msgid "Tailing %s"
-msgstr ""
+msgstr "Tailing %s"
 
 #: Console/Command/CakeResqueShell.php:469
 msgid "Creating the scheduler workers"
-msgstr ""
+msgstr "Creating the scheduler workers"
 
 #: Console/Command/CakeResqueShell.php:470
 msgid "Creating workers"
-msgstr ""
+msgstr "Creating workers"
 
 #: Console/Command/CakeResqueShell.php:479
 msgid "Scheduler Worker is not enabled"
-msgstr ""
+msgstr "Scheduler Worker is not enabled"
 
 #: Console/Command/CakeResqueShell.php:484
 msgid "The scheduler worker is already running"
-msgstr ""
+msgstr "The scheduler worker is already running"
 
 #: Console/Command/CakeResqueShell.php:550
 msgid "Will start "
-msgstr ""
+msgstr "Will start "
 
 #: Console/Command/CakeResqueShell.php:553
 msgid "Starting worker ("
-msgstr ""
+msgstr "Starting worker ("
 
 #: Console/Command/CakeResqueShell.php:554
 msgid ""
 "Running command : \n"
 "\t "
 msgstr ""
+"Running command : \n"
+"\t "
 
 #: Console/Command/CakeResqueShell.php:561
 msgid "Starting scheduler worker "
-msgstr ""
+msgstr "Starting scheduler worker "
 
 #: Console/Command/CakeResqueShell.php:561
 msgid "Starting worker "
-msgstr ""
+msgstr "Starting worker "
 
 #: Console/Command/CakeResqueShell.php:571;856;1174
 msgid "Done"
-msgstr ""
+msgstr "Done"
 
 #: Console/Command/CakeResqueShell.php:573
 msgid "Registering worker #"
-msgstr ""
+msgstr "Registering worker #"
 
 #: Console/Command/CakeResqueShell.php:591;1176
 msgid "Fail"
-msgstr ""
+msgstr "Fail"
 
 #: Console/Command/CakeResqueShell.php:620
 msgid "Stopping %s ... "
-msgstr ""
+msgstr "Stopping %s ... "
 
 #: Console/Command/CakeResqueShell.php:642
 msgid "Stopping workers"
-msgstr ""
+msgstr "Stopping workers"
 
 #: Console/Command/CakeResqueShell.php:642
 msgid "force"
-msgstr ""
+msgstr "force"
 
 #: Console/Command/CakeResqueShell.php:644
 msgid "There is no workers to stop ..."
-msgstr ""
+msgstr "There is no workers to stop ..."
 
 #: Console/Command/CakeResqueShell.php:645
 msgid "Workers list"
-msgstr ""
+msgstr "Workers list"
 
 #: Console/Command/CakeResqueShell.php:646
 msgid "Stop all workers"
-msgstr ""
+msgstr "Stop all workers"
 
 #: Console/Command/CakeResqueShell.php:647
 msgid "Worker to stop"
-msgstr ""
+msgstr "Worker to stop"
 
 #: Console/Command/CakeResqueShell.php:648
 msgid "Stopping the Scheduler Worker ... "
-msgstr ""
+msgstr "Stopping the Scheduler Worker ... "
 
 #: Console/Command/CakeResqueShell.php:671
 msgid "Cleaning up %s ... "
-msgstr ""
+msgstr "Cleaning up %s ... "
 
 #: Console/Command/CakeResqueShell.php:678
 msgid "Cleaning up workers"
-msgstr ""
+msgstr "Cleaning up workers"
 
 #: Console/Command/CakeResqueShell.php:680
 msgid "There is no active workers to clean up ..."
-msgstr ""
+msgstr "There is no active workers to clean up ..."
 
 #: Console/Command/CakeResqueShell.php:681;731
 msgid "Active workers list"
-msgstr ""
+msgstr "Active workers list"
 
 #: Console/Command/CakeResqueShell.php:683
 msgid "Worker to Cleanup"
-msgstr ""
+msgstr "Worker to Cleanup"
 
 #: Console/Command/CakeResqueShell.php:684
 msgid "Cleaning up the Scheduler Worker ... "
-msgstr ""
+msgstr "Cleaning up the Scheduler Worker ... "
 
 #: Console/Command/CakeResqueShell.php:710
 msgid "Pausing %s ... "
-msgstr ""
+msgstr "Pausing %s ... "
 
 #: Console/Command/CakeResqueShell.php:718
 msgid "Fetching list of active workers"
-msgstr ""
+msgstr "Fetching list of active workers"
 
 #: Console/Command/CakeResqueShell.php:728
 msgid "Pausing workers"
-msgstr ""
+msgstr "Pausing workers"
 
 #: Console/Command/CakeResqueShell.php:730
 msgid "There is no active workers to pause ..."
-msgstr ""
+msgstr "There is no active workers to pause ..."
 
 #: Console/Command/CakeResqueShell.php:733
 msgid "Worker to pause"
-msgstr ""
+msgstr "Worker to pause"
 
 #: Console/Command/CakeResqueShell.php:734
 msgid "Pausing the Scheduler Worker ... "
-msgstr ""
+msgstr "Pausing the Scheduler Worker ... "
 
 #: Console/Command/CakeResqueShell.php:760
 msgid "Resuming %s ... "
-msgstr ""
+msgstr "Resuming %s ... "
 
 #: Console/Command/CakeResqueShell.php:768
 msgid "Resuming workers"
-msgstr ""
+msgstr "Resuming workers"
 
 #: Console/Command/CakeResqueShell.php:770
 msgid "There is no paused workers to resume ..."
-msgstr ""
+msgstr "There is no paused workers to resume ..."
 
 #: Console/Command/CakeResqueShell.php:771
 msgid "Paused workers list"
-msgstr ""
+msgstr "Paused workers list"
 
 #: Console/Command/CakeResqueShell.php:772
 msgid "Resume all workers"
-msgstr ""
+msgstr "Resume all workers"
 
 #: Console/Command/CakeResqueShell.php:773
 msgid "Worker to resume"
-msgstr ""
+msgstr "Worker to resume"
 
 #: Console/Command/CakeResqueShell.php:774
 msgid "Resuming the Scheduler Worker ... "
-msgstr ""
+msgstr "Resuming the Scheduler Worker ... "
 
 #: Console/Command/CakeResqueShell.php:795
 msgid "This function requires the PCNTL extension"
-msgstr ""
+msgstr "This function requires the PCNTL extension"
 
 #: Console/Command/CakeResqueShell.php:876
 msgid "Loading predefined workers"
-msgstr ""
+msgstr "Loading predefined workers"
 
 #: Console/Command/CakeResqueShell.php:882
 msgid "You have no configured workers to load."
-msgstr ""
+msgstr "You have no configured workers to load."
 
 #: Console/Command/CakeResqueShell.php:911
 msgid "Restarting workers"
-msgstr ""
+msgstr "Restarting workers"
 
 #: Console/Command/CakeResqueShell.php:914
 msgid "Found "
-msgstr ""
+msgstr "Found "
 
 #: Console/Command/CakeResqueShell.php:926
 msgid "No active workers found, will start brand new worker"
-msgstr ""
+msgstr "No active workers found, will start brand new worker"
 
 #: Console/Command/CakeResqueShell.php:956
 msgid "Resque Statistics"
-msgstr ""
+msgstr "Resque Statistics"
 
 #: Console/Command/CakeResqueShell.php:960
 msgid "Jobs Stats"
-msgstr ""
+msgstr "Jobs Stats"
 
 #: Console/Command/CakeResqueShell.php:961
 msgid "Processed Jobs : %12s"
-msgstr ""
+msgstr "Processed Jobs : %12s"
 
 #: Console/Command/CakeResqueShell.php:962
 msgid "Failed Jobs    : %12s"
-msgstr ""
+msgstr "Failed Jobs    : %12s"
 
 #: Console/Command/CakeResqueShell.php:965
 msgid "Scheduled Jobs : %12s"
-msgstr ""
+msgstr "Scheduled Jobs : %12s"
 
 #: Console/Command/CakeResqueShell.php:971
 msgid "Queues Stats"
-msgstr ""
+msgstr "Queues Stats"
 
 #: Console/Command/CakeResqueShell.php:979
 msgid "Queues count : %d"
-msgstr ""
+msgstr "Queues count : %d"
 
 #: Console/Command/CakeResqueShell.php:985
 msgid "Workers Stats"
-msgstr ""
+msgstr "Workers Stats"
 
 #: Console/Command/CakeResqueShell.php:986
 msgid "Workers count : %s"
-msgstr ""
+msgstr "Workers count : %s"
 
 #: Console/Command/CakeResqueShell.php:992
 msgid "regular workers"
-msgstr ""
+msgstr "regular workers"
 
 #: Console/Command/CakeResqueShell.php:998;1010
 msgid "paused"
-msgstr ""
+msgstr "paused"
 
 #: Console/Command/CakeResqueShell.php:999;1014
 msgid "Started on"
-msgstr ""
+msgstr "Started on"
 
 #: Console/Command/CakeResqueShell.php:1000
 msgid "Processed Jobs"
-msgstr ""
+msgstr "Processed Jobs"
 
 #: Console/Command/CakeResqueShell.php:1002;1003
 msgid "Failed Jobs"
-msgstr ""
+msgstr "Failed Jobs"
 
 #: Console/Command/CakeResqueShell.php:1010
 msgid "scheduler worker"
-msgstr ""
+msgstr "scheduler worker"
 
 #: Console/Command/CakeResqueShell.php:1015
 msgid "Delayed Jobs"
-msgstr ""
+msgstr "Delayed Jobs"
 
 #: Console/Command/CakeResqueShell.php:1018
 msgid "Next Job on"
-msgstr ""
+msgstr "Next Job on"
 
 #: Console/Command/CakeResqueShell.php:1025
 msgid "Alert"
-msgstr ""
+msgstr "Alert"
 
 #: Console/Command/CakeResqueShell.php:1026
 msgid "The Scheduler Worker is not running"
-msgstr ""
+msgstr "The Scheduler Worker is not running"
 
 #: Console/Command/CakeResqueShell.php:1027
 msgid "But there is still <bold>%d</bold> scheduled jobs left in its queue"
-msgstr ""
+msgstr "But there is still <bold>%d</bold> scheduled jobs left in its queue"
 
 #: Console/Command/CakeResqueShell.php:1042
 msgid "Tracking job status"
-msgstr ""
+msgstr "Tracking job status"
 
 #: Console/Command/CakeResqueShell.php:1047
 msgid "Please provide a valid job ID"
-msgstr ""
+msgstr "Please provide a valid job ID"
 
 #: Console/Command/CakeResqueShell.php:1054;1077
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: Console/Command/CakeResqueShell.php:1054;1079
 msgid "Unknown"
-msgstr ""
+msgstr "Unknown"
 
 #: Console/Command/CakeResqueShell.php:1057
 msgid "waiting"
-msgstr ""
+msgstr "waiting"
 
 #: Console/Command/CakeResqueShell.php:1058
 msgid "running"
-msgstr ""
+msgstr "running"
 
 #: Console/Command/CakeResqueShell.php:1059
 msgid "failed"
-msgstr ""
+msgstr "failed"
 
 #: Console/Command/CakeResqueShell.php:1060
 msgid "complete"
-msgstr ""
+msgstr "complete"
 
 #: Console/Command/CakeResqueShell.php:1072
 msgid "scheduled"
-msgstr ""
+msgstr "scheduled"
 
 #: Console/Command/CakeResqueShell.php:1087
 msgid "Failed job details"
-msgstr ""
+msgstr "Failed job details"
 
 #: Console/Command/CakeResqueShell.php:1124
 msgid "Clearing queues"
-msgstr ""
+msgstr "Clearing queues"
 
 #: Console/Command/CakeResqueShell.php:1129
 msgid "There is no queues to clear"
-msgstr ""
+msgstr "There is no queues to clear"
 
 #: Console/Command/CakeResqueShell.php:1140
 msgid "Queues list"
-msgstr ""
+msgstr "Queues list"
 
 #: Console/Command/CakeResqueShell.php:1153
 msgid "Queue to clear"
-msgstr ""
+msgstr "Queue to clear"
 
 #: Console/Command/CakeResqueShell.php:1168
 msgid "Clearing %s ... "
-msgstr ""
+msgstr "Clearing %s ... "
 
 #: Console/Command/CakeResqueShell.php:1196
 msgid "Emptying the worker database"
-msgstr ""
+msgstr "Emptying the worker database"
 
 #: Console/Command/CakeResqueShell.php:1198
 msgid "Unregistering the scheduler worker"
-msgstr ""
+msgstr "Unregistering the scheduler worker"
 
 #: Console/Command/CakeResqueShell.php:1200
 msgid "CakeResque state has been reseted"
-msgstr ""
+msgstr "CakeResque state has been reseted"
 
 #: Console/Command/CakeResqueShell.php:1246
 msgid "Interval time [%s] is not valid. Please enter a valid number"
-msgstr ""
+msgstr "Interval time [%s] is not valid. Please enter a valid number"
 
 #: Console/Command/CakeResqueShell.php:1254
 msgid "Workers number [%s] is not valid. Please enter a valid number"
-msgstr ""
+msgstr "Workers number [%s] is not valid. Please enter a valid number"
 
 #: Console/Command/CakeResqueShell.php:1276
 msgid "User [%s] does not exists. Please enter a valid system user"
-msgstr ""
+msgstr "User [%s] does not exists. Please enter a valid system user"
 
 #: Console/Command/CakeResqueShell.php:1298
 msgid "Error"
-msgstr ""
+msgstr "Error"
 
 #: Console/Command/CakeResqueShell.php:981
 msgid "pending job"
 msgid_plural "pending jobs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "pending job"
+msgstr[1] "pending jobs"
 
 #: Lib/CakeResque.php:75
 msgid "There is an error in the configuration file."
-msgstr ""
+msgstr "There is an error in the configuration file."
 
 #: Lib/CakeResque.php:84
 msgid "There is an error in the Redis configuration key."
-msgstr ""
+msgstr "There is an error in the Redis configuration key."
 
